@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+:focus {
+ border: 3px, solid, red;
+}
+
+body { 
+  background-image: linear-gradient(to right, rgb(242,204,38), rgb(223,79,0));
+}
+
+input {
+  border: unset;
+  background-image: linear-gradient(to right, rgb(242,179,67), rgb(236,151,57));
+  padding: 0.75em;
+  color: black;
+}
+
+.search-container {
+ display: flex;
+ margin: auto;
+ justify-content: center;
+}
+.search-container input,
+.search-container .suggestions {
+}
+.search-container input {
+
+}
+.search-container .suggestions {
+  display: flex;
+
+}
+
+ul {
+  list-style: none;
+  position: relative;
+}
+
+ul li button {
+  border: unset;
+  background: unset;
+}
+ul li button:hover {
+  background-color: rgb(223,79,0);
+  cursor: pointer;
+}
+
+input {
+  /* TODO */
+}
